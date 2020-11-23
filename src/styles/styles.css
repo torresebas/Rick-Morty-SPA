@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
-
+*,
+*:focus,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+h1 ,h2 {
+  color: #3c484e;
+  
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,6 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .Header a {
@@ -31,6 +43,7 @@ body {
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
+  margin-top: 3.8rem;
 }
 
 .Characters-inner {
@@ -39,6 +52,7 @@ body {
   grid-row-gap: 1.5em;
   display: grid;
 }
+
 
 .Characters-card {
   text-decoration: none;
